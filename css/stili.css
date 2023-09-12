@@ -2,5 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
+.logo{
+    width: 100px;
+    margin: 30px 0px 30px 30px;
+    vertical-align: middle;
+}
+
+h1{
+    font-size: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
