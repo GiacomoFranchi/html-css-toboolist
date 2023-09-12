@@ -20,13 +20,30 @@ h1{
     vertical-align: middle;
 }
 
+h3{
+    display: inline-block;
+}
+
+body{
+    background-color:  rgb(246,248,249);
+}
+
+header{
+    background-color: white;
+}
+
 /*Container del Main*/
 .container{
     width: 60%;
     margin: auto;
+    background-color: white;
 }
 
 /*Stile bottoni*/
+.box-bottoni{
+    margin: 50px 0 25px;
+}
+
 .bottone{
     padding: 5px 10px;
     border-radius: 5px;
@@ -50,4 +67,72 @@ h1{
 .testo-bottone2{
     color:rgb(213, 217, 221);
     font-weight: bold;
+}
+
+/*Stili lista*/
+ul{
+    list-style-type: none;
+}
+
+h2{
+    margin: 40px 0 0;
+}
+
+li{
+    margin: 20px 0;
+}
+.check{
+    display: inline-block;
+    border: 1px solid green;
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 50%;
+    color: green;
+}
+
+.cross{
+    display: inline-block;
+    border: 1px solid red;
+    height: 25px;
+    line-height: 25px;
+    width: 25px;
+    text-align: center;
+    border-radius: 50%;
+    color: red;
+}
+.box{
+    display: inline-block;
+    color: white;
+    border-radius: 30%;
+    height: 30px;
+    line-height: 30px;
+    width: 80px;
+    text-align: center;
+}
+
+/*Colori celle*/
+.azzurro{
+    background-color: rgb(69,171,234);
+}
+
+.viola{
+    background-color:rgb(156,114,228) ;
+}
+
+.verde{
+    background-color: rgb(100,192,169);
+}
+
+.arancione{
+    background-color: rgb(242,158,51);
+}
+
+.rosa{
+    background-color: rgb(216,99,161);
+}
+
+.verde-chiaro{
+    background-color: rgb(176,201,38);
 }
